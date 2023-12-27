@@ -11,7 +11,9 @@ import org.junit.runner.RunWith;
         //Path of the step definitions folder
         glue = "stepdefinitions",
         tags = "@wip",
-        dryRun = false
+        dryRun = false,
+        monochrome  = true
+
 
 )
 public class Runner {

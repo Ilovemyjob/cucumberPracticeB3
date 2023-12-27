@@ -17,6 +17,9 @@ public class LoginPage {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
+
+
+
     @FindBy(linkText = "Login")
     public WebElement login;
 
@@ -28,6 +31,7 @@ public class LoginPage {
 
     @FindBy(xpath = "//button[@type='submit']")
     public WebElement loginButton;
+
 
 
    public void getLogin(String email, String password) throws InterruptedException {
